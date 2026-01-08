@@ -1,0 +1,35 @@
+/* Navbar brand (logo container) */
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto;      /* logo left side ला fix */
+    display: flex;
+    align-items: center;
+}
+
+/* Company logo image */
+.logo {
+    height: 40px;           /* logo size control */
+    width: auto;  
+    right: -50px;         /* image distort होणार नाही */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+}

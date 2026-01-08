@@ -1,0 +1,98 @@
+/* Google Font (Optional but Premium) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    min-height: 100vh;
+}
+
+/* Center Wrapper */
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+.login-card {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Header */
+.login-header i {
+    font-size: 60px;
+    color: #0d6efd;
+}
+
+.login-header h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.login-header p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Form */
+.form-label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Options */
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.login-options a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.btn-primary {
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+/* Footer */
+.login-footer {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
